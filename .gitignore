@@ -1,0 +1,42 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories (if using venv or virtualenv)
+venv/
+env/
+.venv/
+
+# Ignore log files and other generated files
+logs/
+*.log
+*.csv
+
+
+# Ignore local configuration files
+config.yaml
+local_settings.py
+
+# Ignore editor/IDE-specific files
+.vscode/
+.idea/
+
+# Ignore compiled binaries and build directories (if using a build system)
+build/
+dist/
+*.egg-info/
+
+# Ignore dependency and environment files
+requirements.txt
+Pipfile
+Pipfile.lock
+
+# Ignore operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated/static files and directories
+/static/
+/media/
+node_modules/
+myenv/
